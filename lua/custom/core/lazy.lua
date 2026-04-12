@@ -14,7 +14,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
-  { import = 'kickstart.plugins' },
   { import = 'custom.plugins' },
 }, { ---@diagnostic disable-line: missing-fields
   ui = {
